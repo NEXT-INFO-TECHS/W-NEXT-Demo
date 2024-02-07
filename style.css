@@ -1316,7 +1316,7 @@ ul.accordion-list li.active h3:after {
 .rts-features .all-features li div {
     display: block;
     margin: 0 15px 30px;
-    background: #fff;
+    background: #000;
     padding: 50px 20px 40px 20px;
     border-radius: 10px;
     box-shadow: 0px 7px 18px rgba(24, 16, 16, 0.0509803922);
@@ -1335,7 +1335,7 @@ ul.accordion-list li.active h3:after {
     display: block;
     font-weight: 600;
     font-size: 16px;
-    color: #5d666f;
+    color: #ffffff;
     margin-top: 20px;
 }
 
