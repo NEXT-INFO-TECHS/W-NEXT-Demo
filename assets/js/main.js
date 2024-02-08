@@ -298,3 +298,36 @@ $(document).ready(function () {
     document.getElementById('year').innerHTML=currentYear;
 
 });
+
+let portfolioMultiPage=1;
+
+function loadMultiPage(){
+    let pageName='multipage-'+portfolioMultiPage+'.html';
+    $("#portfolioMultiPage").load(pageName);
+    portfolioMultiPage+=1;
+    if(portfolioMultiPage===4){
+        $('#portfolioMultiPagebtn').hide();
+    }
+}
+
+let portfolioSinglePage=1;
+
+function loadSinglePage(){
+    let pageName='singlepage-'+portfolioSinglePage+'.html';
+    $("#portfolioSinglePage").load(pageName);
+    portfolioSinglePage+=1;
+    if(portfolioSinglePage===4){
+        $('#portfolioSinglePagebtn').hide();
+    }
+}
+
+let portfolioShowcase=1;
+
+function loadShowcase(){
+    let pageName='showcase-'+portfolioShowcase+'.html';
+    $("#portfolioShowcase").load(pageName);
+    portfolioShowcase+=1;
+    if(portfolioShowcase===4){
+        $('#portfolioShowcasebtn').hide();
+    }
+}
