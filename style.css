@@ -1458,7 +1458,7 @@ footer .footer-top li .inner-area .des {
     max-width: 300px;
     margin: 20px auto 10px;
     font-size: 16px;
-    color: #5d666f;
+    color: #fff;
 }
 
 footer .footer-top li .inner-area a {
@@ -1517,7 +1517,7 @@ footer .footer-btm p {
     max-width: 550px;
     margin: 0 auto 30px;
     line-height: 40px;
-    color: #5d666f;
+    color: #fff;
 }
 
 .builder-inner {
