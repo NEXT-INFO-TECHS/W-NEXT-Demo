@@ -2452,4 +2452,8 @@ img.demo-u {
     background: black;
 }
 
+.footer-icon:hover{
+    box-shadow: 0 0 10px #fff, 0 0 20px #46aef7, 0 0 30px #46aef7, 0 0 40px #0361ac, 0 0 50px #0361ac, 0 0 60px #0361ac, 0 0 70px #0361ac;
+}
+
 /*# sourceMappingURL=style.css.map */
